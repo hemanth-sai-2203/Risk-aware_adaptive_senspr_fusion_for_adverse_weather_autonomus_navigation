@@ -1,0 +1,29 @@
+# RA-ASF Requirements
+# Python 3.7  |  Windows  |  CARLA 0.9.15
+# Install order matters — follow README.md exactly.
+#
+# NOTE: ultralytics (YOLOv8) requires Python >= 3.8.
+#       It is NOT listed here. Members 2 and 3 must use
+#       a separate Python 3.8 environment for model training.
+#       Data collection (Member 1) does NOT need ultralytics.
+
+# ── Core numerics (compatible with existing rl_imu_project versions) ─────────
+numpy>=1.19.0,<1.22.0
+scipy>=1.7.0,<1.8.0
+pandas>=1.3.0,<1.4.0
+
+# ── Computer vision ───────────────────────────────────────────────────────────
+opencv-python==4.7.0.72
+
+# ── Deep learning (CPU — Intel Iris, Python 3.7 last supported build) ─────────
+# Install separately — see README Step 4
+# torch==1.13.1+cpu
+# torchvision==0.14.1+cpu
+
+# ── 3D point cloud ────────────────────────────────────────────────────────────
+open3d==0.15.1
+
+# ── Plotting and progress ─────────────────────────────────────────────────────
+matplotlib>=3.4.0,<3.6.0
+tqdm==4.64.1
+Pillow==9.5.0
