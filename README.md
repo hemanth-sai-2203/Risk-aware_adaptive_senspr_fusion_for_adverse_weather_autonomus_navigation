@@ -437,7 +437,7 @@ This project was developed as part of the **Intelligent Autonomous Systems** res
 |---------------------------|----------------|
 | Hemanth Sai Machireddy    | S20230030389   |
 | Sujith Vaishnav Malla     | S20230030391   |
-| Srinivasa Rao Kommana     | S20230030386   |
+| Srinivasa Rao Komanna     | S20230030386   |
 
 ---
 
